@@ -1,0 +1,36 @@
+{
+  "name": "leavemgmt",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "AI-powered Leave Management System Backend",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development node --watch src/index.js",
+    "start": "node src/index.js",
+    "seed": "node scripts/seed.js"
+  },
+  "keywords": ["leave", "management", "mern", "backend", "ai", "deepseek"],
+  "author": "Your Company",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.3.0",
+    "express": "^5.0.0",
+    "express-rate-limit": "^7.0.0",
+    "googleapis": "^128.0.0",
+    "helmet": "^7.0.0",
+    "jose": "^5.0.0",
+    "mongoose": "^8.18.0",
+    "openai": "^4.0.0",
+    "pino": "^8.0.0",
+    "pino-pretty": "^10.0.0",
+    "swagger-jsdoc": "^6.2.0",
+    "swagger-ui-express": "^5.0.0",
+    "zod": "^3.22.0"
+  }
+}

@@ -1,0 +1,19 @@
+export const ROLES = {
+  ADMIN: 'ADMIN',
+  MANAGER: 'MANAGER',
+  EMPLOYEE: 'EMPLOYEE'
+};
+
+export const LEAVE_TYPES = {
+  CASUAL: 'CASUAL',
+  SICK: 'SICK',
+  EARNED: 'EARNED',
+  UNPAID: 'UNPAID'
+};
+
+export const LEAVE_STATUS = {
+  PENDING: 'PENDING',
+  APPROVED: 'APPROVED',
+  REJECTED: 'REJECTED',
+  CANCELLED: 'CANCELLED'
+};
